@@ -1,0 +1,16 @@
+/* h1{
+    background-color: greenyellow;
+    color: blue;
+    text-align: center;
+    font-style: italic;
+}
+p{
+    background-color: yellowgreen;
+    color: red;
+    text-align: center
+    
+} */
+ *{
+    background-color: blue;
+    color: red;
+ }

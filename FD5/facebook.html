@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook Login Page</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-box{
+            background: white;
+            padding: 20px;
+            width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        h1{
+            color: #1877f2;
+        }
+
+        input{
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .login-btn{
+            width: 100%;
+            padding: 12px;
+            background: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .create-btn{
+                    margin-top: 15px;
+            padding: 12px;
+            background: #42b72a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        a{
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #1877f2;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="login-box">
+    <h1>Facebook</h1>
+
+    <form>
+        <input type="text" placeholder="Email or Phone Number">
+        <input type="password" placeholder="Password">
+
+        <button class="login-btn">Log In</button>
+
+        <a href="#">Forgotten Password?</a>
+
+        <hr>
+
+        <button type="button" class="create-btn">
+            Create New Account
+        </button>
+    </form>
+</div>
+
+</body>
+</html>
