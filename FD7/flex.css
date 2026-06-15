@@ -1,0 +1,14 @@
+.parent{
+    border: 5px solid red;
+    height: 500px;
+    width:500px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sml{
+    border: 2px solid rgb(81, 0, 255);
+    width: 100px;
+    height: 110px;
+}
