@@ -1,0 +1,145 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.parent{
+    width: 95%;
+    height: 300px;
+    margin-left: 110px;
+ 
+}
+
+.first{
+    width: 90%;
+    height:260px ;
+    background-color:darkred;
+    margin-top: 3px;
+    color: WHITE;
+    text-align: center;   
+}
+
+ .second{
+    width: 90%;
+    height: 40px;
+    background-color: darkblue;
+}
+
+.second ul{
+    margin-left: 100px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+    height: 40px;
+}
+
+.second ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    color: rgb(11, 1, 1);
+    height: 100px;
+    width: 1313px;
+    margin-left: 110px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+.cont{
+    
+    height: 100px;
+    width: 1313px;
+    margin-left: 110px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+.box{
+    height: 100px;
+    width: 318px ;
+    border-radius: 5px;
+}
+.child1{
+background-color: red;
+}
+
+.child2{
+background-color: yellowgreen;
+}
+
+.child3{
+background-color: rgb(6, 237, 99);
+}
+
+.child4{
+background-color: rgb(230, 2, 255);
+}
+
+.child5{
+background-color: rgb(0, 255, 85);
+}
+
+.child6{
+    background-color: blue;
+}
+
+.child7{
+background-color:bisque;
+}
+
+.child8{
+    background-color: yellow;
+}
+
+.asus{
+    
+    height: 700px;
+    width: 1313px;
+    margin-left: 110px;
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+.cp{
+    
+    height: 700px;
+    width: 440px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.cp h1{
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+}
+.cp ul li a{
+    color: blue;
+    text-decoration: none;
+}
+ .hero1,
+.hero2,
+.hero3{
+    background-color: white;
+    width: 400px;
+    min-height: 700px;
+    border: 2px solid darkred;
+}
+#img{
+    margin-right: 600px;
+    margin-bottom: 100px;
+    
+}
