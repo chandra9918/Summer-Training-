@@ -1,5 +1,45 @@
+.container{
+    background-color: gray;
+    /* border: 2px solid black; */
+    height: 70px;
+    width:100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+   justify-content: end;
+    /* align-items: center; */
+    padding: 5px;
+    
+    
+}
+
+
+    .box{
+    width: 200px;
+    height: 30px;
+    /* border: 2px solid rgb(251, 247, 247); */
+    text-align: center;
+    margin: 20px;
+    margin-left: 40px;
+    align-items: center;
+    
+
+}
+.child{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    margin-right: 5px;
+    
+}
+.btn :hover{
+cursor: pointer;
+}
+.pic{
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
 .parent{
-    border: 2px soplid black;
-    width: 100%;
-    height: 100px;
+    margin-top: 5px;
 }
