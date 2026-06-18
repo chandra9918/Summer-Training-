@@ -1,4 +1,4 @@
-var name= "Chandra"
+       var name= "Chandra"
         console.log(name);
 
         var age=19
