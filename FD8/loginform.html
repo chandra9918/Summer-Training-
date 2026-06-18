@@ -2,18 +2,108 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=4, initial-scale=1.0">
     <title>LOGIN FORM</title>
     <style>
-        .body{
+        body{
+            background-color: #0AA38C;
+        }
+        .main{
+             display: flex;
+             justify-content: center; 
+             align-items: center;     
+             gap: 30px;               
+             height: 100vh;
+         }
+        .box{
+           
+            border-radius: 7px;
+            height: 500px;
+            width: 24%;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0,7);
+            margin: 10px;
+            background-color: white;
             
-           background-color: ; color: lightseagreen;
+        }
+        .parent{
+            font-family: sans-serif;
+            text-align: center;
+            height: 450px;
+            
+        }
+        .container{
+             font-family: sans-serif;
+           text-align: center;
+        }
+        .hero{
+            margin: 10px;
+            height:45px;
+            width: 300px;
+            border-radius: 5px;
+            font-family: sans-serif;
+        }
+        .forgot{
+            text-align: none;
+        }
+        .btn{
+            
+             background-color: #0AA38C;
+             color: white;
+             border: none;
+             height: 50px;
+             width: 312px;
+             border-radius: 5px;
+             font-size: 20px;
+             font-weight: bold;
+            cursor: pointer;
+        }
+
+         a{
+            color: blue;
         }
     </style>
 </head>
 <body>
-    <DIV>
+    <div class="main">
+    <div class="box parent">
+        <h1>
+            Login
+        </h1>
+         
+        <input class="hero" type="email" id="name" placeholder="enter your email">
 
-    </DIV>
+        <input class="hero" type="password" name="password" id="name" placeholder="enter your password">
+
+        <a href="#" class="forgot">Forgot Password?</a> <br><br>
+
+        <button class="btn">Login</button>
+
+        <p>
+             Don't have an account?
+             <a href="#">Signup</a>
+        </p>
+
+    </div>
+
+    <div class="box container">
+        <h1>
+            Signup
+        </h1>
+
+        <input class="hero" type="email" name="email" id="name" placeholder="enter your username" >
+
+        <input class="hero" name="password" id="name" placeholder="enter your password"> 
+
+        <input class="hero" name="password" id="name" placeholder="confirm your password"><br><br><br>
+
+        <button class="btn">Signup</button>
+
+        <p>
+            Don't have an account?
+            <a href="#">Signup</a>
+        </p>
+
+    </div>
+    </div>
 </body>
 </html>

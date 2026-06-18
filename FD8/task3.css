@@ -15,9 +15,18 @@
     width: 90%;
     height:260px ;
     background-color:darkred;
-    margin-top: 3px;
+    /* margin-top: 3px; */
     color: WHITE;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     text-align: center;   
+}
+.first h1 h2{
+    display: flex;
+    margin-top: 40px;
+   
+    align-items: center;
 }
 
  .second{
