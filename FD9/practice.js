@@ -1,0 +1,10 @@
+<script>
+    a=10
+b=15
+c=30
+c=a+b+c
+console.log(c)
+d=80
+e=c+a
+console.log(e)
+</scrpt>
