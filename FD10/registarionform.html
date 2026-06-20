@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    
+</head>
+<style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#05ece4;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+.container{
+    width:900px;
+    background:white;
+    border:2px solid #fb2803;
+    box-shadow: 0px 5px 8px black;
+}
+
+.header{
+    background:linear-gradient(135deg,#5277a0,#069541);
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+
+.logo{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.header h3{
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.header h1{
+    font-size:48px;
+    font-weight:bold;
+}
+
+.section{
+    padding:20px 30px;
+    border-top:2px solid #f0c60c;
+}
+
+.section h2{
+    text-align:center;
+    color:#0d73c7;
+    margin-bottom:25px;
+    font-size:28px;
+}
+
+.row{
+    display:flex;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+.row label{
+    width:180px;
+    font-size:14px;
+    text-transform:uppercase;
+}
+
+.row input[type="text"],
+.row input[type="email"],
+.row input[type="date"]{
+    flex:1;
+    border:none;
+    border-bottom:1px solid #555;
+    outline:none;
+    padding:5px;
+}
+
+.two-col{
+    gap:30px;
+}
+
+.two-col > div{
+    flex:1;
+    display:flex;
+    align-items:center;
+}
+
+.two-col label{
+    width:150px;
+}
+
+.two-col input[type="text"],
+.two-col input[type="date"]{
+    flex:1;
+}
+
+.radio-group{
+    display:flex;
+    gap:30px;
+    font-size:14px;
+}
+
+.footer{
+    border-top:2px solid #66b3ff;
+    padding:20px 30px;
+    display:flex;
+    justify-content:space-between;
+    font-size:13px;
+}
+
+.signature{
+    text-align:center;
+}
+</style>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <div class="logo">◆</div>
+        <h3>COMPANY NAME</h3>
+        <h1>REGISTRATION FORM</h1>
+    </div>
+
+   
+    <div class="section">
+        <h2>PERSONAL INFORMATION</h2>
+
+        <div class="row">
+            <label>Full Name</label>
+            <input type="text">
+        </div>
+
+        <div class="row two-col">
+            <div>
+                <label>Gender</label>
+                <div class="radio-group">
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                </div>
+            </div>
+        </div>
+
+        <div class="row two-col">
+            <div>
+                <label>Date of Birth</label>
+                <input type="date">
+            </div>
+            <div>
+                <label>Place of Birth</label>
+                <input type="text">
+            </div>
+        </div>
+
+        <div class="row two-col">
+            <div>
+                <label>Nationality</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Religion</label>
+                <input type="text">
+            </div>
+        </div>
+
+        <div class="row two-col">
+            <div>
+                <label>Residence Status</label>
+                <div class="radio-group">
+                    <input type="radio" name="res"> Residence
+                    <input type="radio" name="res"> Non Residence
+                </div>
+            </div>
+        </div>
+
+        <div class="row two-col">
+            <div>
+                <label>Marital Status</label>
+                <div class="radio-group">
+                    <input type="radio" name="marital"> Single
+                    <input type="radio" name="marital"> Married
+                    <input type="radio" name="marital"> Widowed
+                </div>
+            </div>
+        </div>
+
+        <div class="row two-col">
+            <div>
+                <label>National ID No</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>TIN No</label>
+                <input type="text">
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="section">
+        <h2>CONTACT INFORMATION</h2>
+
+        <div class="row">
+            <label>Address</label>
+            <input type="text">
+        </div>
+
+        <div class="row two-col">
+            <div>
+                <label>City</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>State</label>
+                <input type="text">
+            </div>
+        </div>
+
+        <div class="row two-col">
+            <div>
+                <label>Zip Code</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Country</label>
+                <input type="text">
+            </div>
+        </div>
+
+        <div class="row two-col">
+            <div>
+                <label>Phone</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email">
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="section">
+        <h2>SERVICE INFORMATION</h2>
+
+        <div class="row">
+            <label>Service Name</label>
+            <input type="text">
+        </div>
+
+        <div class="row">
+            <label>Payment Detail</label>
+            <div class="radio-group">
+                <input type="radio" name="payment"> Cash
+                <input type="radio" name="payment"> Debit Card
+                <input type="radio" name="payment"> Credit Card
+            </div>
+        </div>
+
+        
+
+   
+
+</div>
+
+</body>
+</html>

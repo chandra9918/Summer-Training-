@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATE ACCOUNT</title>
+    <style>
+        
+body{
+    background:#2d4f63;
+    font-family:Arial,sans-serif;
+}
+  .row{
+        display:flex;
+        gap:20px;
+        margin-bottom:20px;
+    }
+.container{
+    width:700px;
+    margin:30px auto;
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    flex-direction: row;
+    
+}
+  label{
+        display:block;
+        margin-bottom:8px;
+        color:#04735d;
+        font-size:16px;
+        font-weight:bold;
+    }
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+    font-family: sans-serif;
+}
+
+.form{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.field{
+    display:flex;
+    flex-direction:column;
+}
+
+.field label{
+    margin-bottom:5px;
+    color:#00a99d;
+    font-weight:bold;
+}
+
+.field input{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.full{
+    grid-column:1 / 3;
+}
+     textarea{
+        height:120px;
+        resize:none;
+    }
+
+    .radio-group,
+    .checkbox-group{
+        display:flex;
+        gap:15px;
+        margin-top:10px;
+    }
+
+    .income-box{
+        display:flex;
+        align-items:center;
+        gap:10px;
+    }
+
+    .income-value{
+        background:#1abc9c;
+        color:white;
+        padding:8px 12px;
+        border-radius:5px;
+        font-weight:bold;
+    }
+
+    .footer{
+        background:#f2f2f2;
+        padding:20px;
+        text-align:right;
+    }
+
+    .btn{
+        background:#1abc9c;
+        color:white;
+        border:none;
+        padding:12px 30px;
+        font-size:18px;
+        border-radius:5px;
+        cursor:pointer;
+    }
+
+    .btn:hover{
+        background:#16a085;
+    }
+    .lbl{
+        color: black;
+        font-weight: 100;
+    }
+
+    </style>
+</head>
+<div class="container">
+    <h1>Create Account</h1>
+
+    <form class="form">
+
+        <div class="field">
+            <label>First Name *</label>
+            <input type="text" placeholder="Enter your first name">
+        </div>
+
+        <div class="field">
+            <label>Last Name *</label>
+            <input type="text" placeholder="Enter your last name">
+        </div>
+
+        <div class="field full">
+            <label>Email *</label>
+            <input type="email" placeholder="Enter your email">
+        </div>
+
+        <div class="field">
+            <label>Password *</label>
+            <input type="password" placeholder="Enter your password">
+        </div>
+
+        <div class="field">
+            <label>Confirm Password *</label>
+            <input type="password" placeholder="Enter your password again">
+        </div>
+
+        <div class="rw">
+            <div class="fd"></div>
+            <label for="gender">Gender:</label>
+                <input type="radio">Male
+                <input type="radio">Female
+                </div>
+
+                <div class="fd">
+                    <label>Hobbies</label>
+                     <label class="lbl"><input type="checkbox"> Music</label>
+                    <label class="lbl"><input type="checkbox"> Sports</label>
+                    <label class="lbl"><input type="checkbox"> Travel</label>
+                    <label class="lbl"><input type="checkbox"> Movies</label>
+                </div>
+
+
+
+
+        </div>
+
+    </form>
+</div>
+</html>
