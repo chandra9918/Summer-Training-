@@ -31,7 +31,7 @@
 // 👉 Q5. Numbers ka Sum nikalo
 // Ek array banao:
 // In sab numbers ka total sum nikal kar print karo.
-        let num=[01,18,45,96,10]
+        let num=[1,18,45,96,10]
         // add=(num[0]+num[1]+num[2]+num[3]+num[4])
         // console.log(add);
         
