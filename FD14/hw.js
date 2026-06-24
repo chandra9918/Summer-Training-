@@ -17,8 +17,6 @@
     // console.log(fruits[0]);
     // console.log(fruits[4]);
     
-        
-
 
 // 👉 Q3. Array me naya element add karo
 // fruits array me "Pineapple" add karo aur updated array print karo.
@@ -29,21 +27,6 @@
 // Array ka last element remove karo aur updated array print karo.
     // fruits.pop()
     // console.log(fruits);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
 // 👉 Q5. Numbers ka Sum nikalo
 // Ek array banao:
