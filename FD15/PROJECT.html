@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+
+        body{
+            height: 100%;
+            width: 100%;
+            border-radius: 2px solid yellow;
+        }
+        .container{
+            
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;    
+        }
+
+        .btn{
+            padding: 20px;
+            border-radius: 5px;
+            height: 40px;
+            width: 880px;
+            text-align: center;
+            
+        }
+        .btn:hover{
+            background-color: blueviolet;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="btn" onmouseover="change()">Change Color</button>
+    </div>
+
+    <script>
+        let color=["red","black","blue","pink","orange","gray","brown"]
+        function change(){
+            let body=document.body
+            let random=Math.floor(Math.random()*(color.length))
+            body.style.backgroundColor=color[random]
+        }
+    </script>
+</body>
+</html>
