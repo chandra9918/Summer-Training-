@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUOTE GENERATOR</title>
+    <style>
+
+        body{
+            height: 100%;
+            width: 100%;
+            border-radius: 2px ;
+            background-color: teal;
+        }
+        .container{
+            
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;    
+        }
+
+        .btn{
+            padding: 20px;
+            border-radius: 5px;
+            background-color: brown;
+            text-align: center;
+            
+        }
+        .btn:hover{
+            background-color: blueviolet;
+            cursor: pointer;
+        }
+        #quote{
+            text-align: center;
+        }
+
+        h1{
+            text-align: center;
+            color: blue ;
+            border: 2px solid black;
+            height: 150px;
+            width: 70%;
+            margin-left: 140px;
+            display: flex;
+            align-items: center ;   
+            padding-left: 230px;    
+            font-family: sans-serif; 
+            background-color: cornsilk;    
+            border-radius: 5px;
+        }
+        .hero{
+            border: 2px solid black;
+            width: 90%;
+            margin-left: 100px;
+            background-color: cornsilk;
+            height: 100px;
+            border-radius: 8px;
+        }
+         
+    </style>
+</head>
+<body>
+    <H1>WELCOME TO MY QUOTE GENERATOR WEBSITE</H1><br><br>
+    <div class="hero">
+        <h3 id="quote">
+                Generate Quote
+        </h3>
+    </div>
+    <div class="container">
+        <button class="btn" onclick="generate()">Generate Quote</button>
+    </div>
+
+    <script>
+        let quote=[ "So many books, so little time.",
+                    "To live is the rarest thing in the world. Most people exist, that is all.",
+                    "A friend is someone who knows all about you and still loves you.",
+                    "Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.",
+                    "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+                    "Without music, life would be a mistake.",
+                    "It is better to be hated for what you are than to be loved for what you are not.",
+                    "The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.",
+                    "It is our choices, Harry, that show what we truly are, far more than our abilities.",
+                    "Yesterday is history, tomorrow is a mystery, today is a gift of God, which is why we call it the present."]
+        function generate(){
+            let heading=document.querySelector("#quote")
+            let random=Math.floor(Math.random()*(quote.length))
+            // body.style.backgroundColor=color[random]
+            heading.innerHTML=quote[random]
+        }
+    </script>
+</body>
+</html>
