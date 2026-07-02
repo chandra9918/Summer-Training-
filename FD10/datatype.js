@@ -1,7 +1,7 @@
-//Primitive data type  --> String , NUumber , Boolean, Null, Undefined, Bigint, Symbol
-// Non Primitive Data type --> Array, Object
+//     // Primitive data type  --> String , NUumber , Boolean, Null, Undefined, Bigint, Symbol
+//     // Non Primitive Data type --> Array, Object
 
-//string
+//     // string
 // let name1="Chandra"
 // console.log(name1);
 // console.log(typeof(name1));
@@ -12,16 +12,16 @@
 // console.log(num);
 // console.log(typeof(num));
 
-// //boolea
+// //boolean
 // let pass=true
 // console.log(pass);
 
-// // undefined
-// let name2;
-// console.log(name2);
-// console.log(typeof(num));
+// undefined
+let name2;
+console.log(name2);
+console.log(typeof(name2));
 
-// //null
+//null
 // let name3=null
 // console.log(name3);
 // console.log(typeof(name3));

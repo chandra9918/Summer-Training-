@@ -1,5 +1,5 @@
 //Marks
- marks=20
+ let marks=20
 
  if (marks>=90) {
     console.log("You are Pass With Grade A"); 
